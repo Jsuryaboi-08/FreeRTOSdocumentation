@@ -3,7 +3,7 @@
 #include <Arduino.h>
 #include <FreeRTOS.h>
 #include <task.h>
-#include <semphr.h>
+//#include <semphr.h>
 #if CONFIG_FREERTOS_UNICORE
   static const BaseType_t app_cpu = 0;
 #else
