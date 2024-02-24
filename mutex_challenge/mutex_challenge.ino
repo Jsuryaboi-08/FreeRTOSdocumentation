@@ -1,9 +1,9 @@
 //credits to Shawn Hymel for the question and tutorial.
 // Use only core 1 for demo purposes
-#include <Arduino.h>
+
 #include <FreeRTOS.h>
 #include <task.h>
-//#include <semphr.h>
+#include <semphr.h>
 #if CONFIG_FREERTOS_UNICORE
   static const BaseType_t app_cpu = 0;
 #else
